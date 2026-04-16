@@ -7,6 +7,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scrollbar-width: none;
 }
 
 :root {
@@ -402,6 +403,8 @@ code {
   text-align: center;
   padding: 4rem 2rem;
   color: var(--gray-500);
+  justify-content: center;
+  width: 1300px;
 }
 .empty-icon {
   font-size: 3.5rem;

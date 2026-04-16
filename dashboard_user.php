@@ -115,7 +115,6 @@ $angkatans = $pdo->query("SELECT DISTINCT angkatan FROM alumni ORDER BY angkatan
         <div class="cards-grid">
             <?php if (empty($alumni)): ?>
                 <div class="empty-state">
-                    <div class="empty-icon">🎓</div>
                     <h3>Tidak ada data ditemukan</h3>
                     <p>Coba ubah kata kunci pencarian atau filter Anda.</p>
                 </div>
