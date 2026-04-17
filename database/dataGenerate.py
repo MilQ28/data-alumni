@@ -4,7 +4,7 @@
 from faker import Faker
 import random
 
-fake = Faker('id_ID') # Menggunakan locale Indonesia
+fake = Faker('id_ID') # Indonesia
 jurusan_list = ['Rekayasa Perangkat Lunak', 'TKJ', 'TJAT', 'Animasi']
 pekerjaan_list = ['Software Engineer', 'Data Scientist', 'Network Engineer', 'UI/UX Designer', 'Web Developer']
 

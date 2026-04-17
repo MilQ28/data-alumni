@@ -211,17 +211,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                 <!-- Ganti Password -->
                 <div class="form-section">
-                    <h2 class="section-title">Ganti Password <span class="section-optional">(opsional)</span></h2>
+                    <h2 class="section-title">Ganti Password</h2>
                     <div class="form-grid">
 
                         <div class="form-group">
                             <label for="password">Password Baru</label>
-                            <div class="input-password-wrap">
+                            <div class="input-password-wrap" style="height: 30px;">
                                 <input
                                     type="password"
                                     id="password"
                                     name="password"
-                                    placeholder="Kosongkan jika tidak ingin ganti"
+                                    placeholder="  Kosongkan jika tidak ingin ganti"
                                     maxlength="255">
                                 <button type="button" class="btn-toggle-pw" onclick="togglePw('password', this)">👁</button>
                             </div>
@@ -230,12 +230,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                         <div class="form-group">
                             <label for="confirm">Konfirmasi Password Baru</label>
-                            <div class="input-password-wrap">
+                            <div class="input-password-wrap" style="height: 30px;">
                                 <input
                                     type="password"
                                     id="confirm"
                                     name="confirm"
-                                    placeholder="Ulangi password baru"
+                                    placeholder="  Ulangi password baru"
                                     maxlength="255">
                                 <button type="button" class="btn-toggle-pw" onclick="togglePw('confirm', this)">👁</button>
                             </div>

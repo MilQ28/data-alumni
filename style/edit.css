@@ -213,7 +213,7 @@ textarea { resize: vertical; }
     border: 1.5px solid var(--border);
     border-radius: 8px;
     cursor: pointer;
-    transition: border-color .2s, background .2s;
+    transition: border-color .2s, background .1s;
 }
 .role-card input[type="radio"] { display: none; }
 .role-card-label { font-weight: 600; font-size: .9rem; }
@@ -221,6 +221,10 @@ textarea { resize: vertical; }
 .role-card--active {
     border-color: var(--accent);
     background: color-mix(in srgb, var(--accent) 8%, transparent);
+}
+.role-card:hover {
+    background-color: #82868a;
+    color: #eafaf1;
 }
 
 /* ── Form hint ── */
