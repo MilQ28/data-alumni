@@ -81,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <code>user</code> / <code>user</code>
             </p>
             <br>
-            <code>Ingin membuat akun baru? <a href="https://wa.me/+6282294451306">Hubungi Superadmin</a></code>
+            <code>Ingin membuat akun baru? <a href="https://wa.me/+628XXXXXXXXXX">Hubungi Superadmin</a></code>
         </div>
     </div>
 </body>
